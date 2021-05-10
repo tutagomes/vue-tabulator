@@ -32,7 +32,7 @@ export default class TabulatorComponent extends Vue {
 
   get eventOptions(): Object {
     const events = eventFactory.bind(this);
-    return { ...events(rowEvents), ...events(cellEvents), ...(filterEvents) };
+    return { ...events(rowEvents), ...events(cellEvents), ...events(filterEvents) };
   }
 
   @Prop({ default: () => ({}) })

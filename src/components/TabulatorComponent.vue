@@ -18,6 +18,7 @@ import merge from '../utilities/merge';
 import eventFactory from '../feature/event-factory';
 import cellEvents from '../feature/events/cell-events';
 import rowEvents from '../feature/events/row-events';
+import filterEvents from '../feature/events/filter-events';
 
 
 @Component({
@@ -31,7 +32,7 @@ export default class TabulatorComponent extends Vue {
 
   get eventOptions(): Object {
     const events = eventFactory.bind(this);
-    return { ...events(rowEvents), ...events(cellEvents) };
+    return { ...events(rowEvents), ...events(cellEvents), ...(filterEvents) };
   }
 
   @Prop({ default: () => ({}) })

@@ -5212,12 +5212,12 @@ var es_function_name = __webpack_require__("b0c0");
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"62a97d4c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TabulatorComponent.vue?vue&type=template&id=0b9b3e1a&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"62a97d4c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TabulatorComponent.vue?vue&type=template&id=a4f9d466&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"table",staticClass:"tabulator"})}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/TabulatorComponent.vue?vue&type=template&id=0b9b3e1a&
+// CONCATENATED MODULE: ./src/components/TabulatorComponent.vue?vue&type=template&id=a4f9d466&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.keys.js
 var es_object_keys = __webpack_require__("b64b");
@@ -6457,7 +6457,15 @@ var rowEvents = ['rowClick', 'rowDblClick', 'rowContext', 'rowTap', 'rowDblTap',
 // CONCATENATED MODULE: ./src/feature/events/filter-events.ts
 var filterEvents = ['dataFiltering', 'dataFiltered'];
 /* harmony default export */ var filter_events = (filterEvents);
+// CONCATENATED MODULE: ./src/feature/events/data-events.ts
+var dataEvents = ['dataLoading', 'dataLoaded', 'dataChanged', 'htmlImporting', 'htmlImported'];
+/* harmony default export */ var data_events = (dataEvents);
+// CONCATENATED MODULE: ./src/feature/events/group-events.ts
+var group_events_dataEvents = ['dataGrouping', 'dataGrouped', 'groupVisibilityChanged', 'groupClick', 'groupDblClick', 'groupContext', 'groupTap', 'groupDblTap', 'groupTapHold'];
+/* harmony default export */ var group_events = (group_events_dataEvents);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--14-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--14-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TabulatorComponent.vue?vue&type=script&lang=ts&
+
+
 
 
 
@@ -6494,7 +6502,7 @@ var TabulatorComponentvue_type_script_lang_ts_TabulatorComponent = /*#__PURE__*/
     key: "eventOptions",
     get: function get() {
       var events = event_factory.bind(this);
-      return _objectSpread2(_objectSpread2(_objectSpread2({}, events(row_events)), events(cell_events)), events(filter_events));
+      return _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, events(row_events)), events(cell_events)), events(filter_events)), events(data_events)), events(group_events));
     }
   }, {
     key: "getInstance",

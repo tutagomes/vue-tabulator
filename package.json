@@ -52,7 +52,7 @@
   "dependencies": {
     "@types/dashify": "^1.0.0",
     "@types/lodash.mergewith": "^4.6.6",
-    "@types/tabulator-tables": "^4.8.0",
+    "@types/tabulator-tables": "4.9.3",
     "core-js": "^3.3.6",
     "dashify": "^2.0.0",
     "lodash.mergewith": "^4.6.2",
@@ -60,7 +60,7 @@
     "vue-property-decorator": "^9.1.2"
   },
   "peerDependencies": {
-    "tabulator-tables": "4.8.4",
+    "tabulator-tables": "4.9.3",
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
   },

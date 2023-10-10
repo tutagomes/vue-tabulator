@@ -2135,10 +2135,10 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/tabulator-tables@^4.8.0":
-  version "4.9.4"
-  resolved "https://registry.yarnpkg.com/@types/tabulator-tables/-/tabulator-tables-4.9.4.tgz#1ac522d1d3bfb70d2dd1e19371c1fd7cffa4fa48"
-  integrity sha512-yx8lZb15X+RP5a0ih6Fw5AaD/1m62+35ULMcm3TxQaheiH76lyBr2Zs20Wf7KNWsIGy1nwMmbjkCt6vjMczJQQ==
+"@types/tabulator-tables@4.9.3":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@types/tabulator-tables/-/tabulator-tables-4.9.3.tgz#226ca07d85acf1bcde7305350fa4a4112d960709"
+  integrity sha512-QscVgpJbwpy3DOJtyxgTc53xklRSA5nel0fKckwpox9cUGNB1HLxkjnJNxitUSymyVSmEJ4ol+mundpEt8Wr6Q==
 
 "@types/tapable@^1":
   version "1.0.9"
